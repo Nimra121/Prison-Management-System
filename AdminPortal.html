@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Portal</title>
+<style>
+    .body{
+          margin: 0;
+          padding: 0;
+          font-family: sans-serif;
+          background: url(assets/images/pic-2.jpg);
+          background-size: cover;
+          background-position: center;
+    }
+    .button {
+        background-color: #DC2345;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    	border-radius: 12px;
+    	width: 250px;
+    }
+    .button {
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+    .button:hover {
+        background-color: #8F0B24;
+        color: white;
+    }
+    .sansserif {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+</head>
+
+<body>
+    <legend class="sansserif" style="font-size: 20px; text-align: center;"><b>Admin Portal</b></legend>
+    <hr>
+    <table width="20%" align="center">
+    <tr>
+    <td>
+     <form method="post" action="admin_all.php">
+        <button type="submit" class = "button">Display All Jailors</button>
+    </form>
+    </td>
+    <td>
+     <form method="post" action="guard_all.php">
+        <button type="submit" class = "button">Display All Jail Officers</button>
+    </form>
+    </td>
+    <td>
+     <form method="post" action="Prisoners_all.html">
+        <button type="submit" class = "button">Display All Prisoners</button>
+    </form>
+    </td>
+    <td>
+     <form method="post" action="cleaner_all.php">
+        <button type="submit" class = "button">Display All Court Officers</button>
+    </form>
+    </td>
+    </tr>
+    <tr>
+    <td>
+     <form method="post" action="admin_php.php">
+        <button type="submit" class = "button">Register New Court Officer</button>
+    </form>
+    </td>
+    <td>
+     <form method="post" action="guard_php.php">
+        <button type="submit" class = "button">Register New Jailor</button>
+    </form>
+    </td>
+    <td>
+     <form method="post" action="Prisoner_reg.html">
+        <button type="submit" class = "button">Register New Prisoner</button>
+    </form>
+    </td>
+    <td>
+     <form method="post" action="JailOfficer_Register.html">
+        <button type="submit" class = "button">Register New Jail Officer</button>
+    </form>
+    </td>
+    </tr>
+    <tr>
+    </table>
+ 
+</body>
+</html>
